@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memorial Virtual - João da Silva</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Memorial de João da Silva</h1>
+    <p>Em memória de uma vida inesquecível</p>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre João</h2>
+    <p>João da Silva nasceu em 1940 e viveu com alegria e bondade. Foi um pai dedicado, esposo amoroso e amigo fiel.</p>
+  </section>
+
+  <section id="galeria">
+    <h2>Galeria de Fotos</h2>
+    <div class="galeria">
+      <img src="https://via.placeholder.com/300" alt="Foto 1"/>
+      <img src="https://via.placeholder.com/300" alt="Foto 2"/>
+      <img src="https://via.placeholder.com/300" alt="Foto 3"/>
+    </div>
+  </section>
+
+  <section id="mensagem">
+    <h2>Deixe sua Mensagem</h2>
+    <form id="form-mensagem">
+      <input type="text" placeholder="Seu nome" required />
+      <textarea placeholder="Sua mensagem..." required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Memorial Virtual - Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
